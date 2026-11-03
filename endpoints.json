@@ -1,10 +1,10 @@
 {
-  "version": 3,
+  "version": 4,
   "updated_at": "2026-11-03",
   "jackett": {
-    "host": "test-wrong",
-    "url": "http://1.2.3.4:9117",
+    "host": "ru-1",
+    "url": "http://5.183.191.26:9117",
     "key": "1"
   },
-  "notes": "TEST: заведомо неверный адрес — проверить подтягивание из GitHub. Откатить после теста."
+  "notes": "Jackett на ru-1. Источник правды: GitHub main → proxy :8088/endpoints.json"
 }
