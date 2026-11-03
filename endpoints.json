@@ -6,5 +6,10 @@
     "url": "http://5.183.191.26:9117",
     "key": "1"
   },
-  "notes": "Jackett на ru-1. Источник правды: GitHub main → proxy :8088/endpoints.json"
+  "notes": "Jackett на ru-1. Источник правды: GitHub main → proxy :8088/endpoints.json",
+  "app_js": {
+    "url_proxy": "http://5.183.191.26:8088/app.min.js",
+    "url_github": "https://raw.githubusercontent.com/pkuznets/lampa-config/main/app.min.js",
+    "notes": "Lampa webOS loader pulls app.min.js remotely"
+  }
 }
